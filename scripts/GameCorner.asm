@@ -166,11 +166,11 @@ GameCornerClerk1Text:
 	ld hl, .CantAffordTheCoins
 	jr .print_ret
 .buy_coins
-	; Spend 1000 yen
+	; Spend 100 yen
 	xor a
 	ldh [hMoney], a
 	ldh [hMoney + 2], a
-	ld a, $10
+	ld a, $1
 	ldh [hMoney + 1], a
 	ld hl, hMoney + 2
 	ld de, wPlayerMoney + 2

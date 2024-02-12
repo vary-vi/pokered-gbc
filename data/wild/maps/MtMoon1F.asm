@@ -4,11 +4,11 @@ MtMoon1FWildMons:
 	db  7, ZUBAT
 	db  9, ZUBAT
 	db  8, GEODUDE
-	db  6, ZUBAT
-	db 10, ZUBAT
+	db  6, PARAS
+	db 10, PORYGON
 	db 10, GEODUDE
 	db  8, PARAS
-	db 11, ZUBAT
+	db 11, PORYGON
 	db  8, CLEFAIRY
 	end_grass_wildmons
 
