@@ -1089,7 +1089,7 @@ PikachuEvosMoves:
 	db 16, QUICK_ATTACK
 	db 26, SWIFT
 	db 33, AGILITY
-	db 35, THUNDER_PUNCH
+	db 35, THUNDERPUNCH
 	db 43, THUNDER
 	db 0
 
