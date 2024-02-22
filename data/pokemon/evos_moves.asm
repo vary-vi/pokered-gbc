@@ -361,6 +361,7 @@ GengarEvosMoves:
 ; Learnset
 	db 29, HYPNOSIS
 	db 38, DREAM_EATER
+	db 42, BITE
 	db 0
 
 NidoranFEvosMoves:
@@ -483,6 +484,7 @@ GastlyEvosMoves:
 ; Learnset
 	db 27, HYPNOSIS
 	db 35, DREAM_EATER
+	db 40, BITE
 	db 0
 
 ScytherEvosMoves:
@@ -568,7 +570,8 @@ GrowlitheEvosMoves:
 	db 23, LEER
 	db 30, TAKE_DOWN
 	db 39, AGILITY
-	db 50, FLAMETHROWER
+	db 40, FLAMETHROWER
+	db 50, FIRE_SPIN
 	db 0
 
 OnixEvosMoves:
@@ -696,8 +699,8 @@ HitmonchanEvosMoves:
 	db 0
 ; Learnset
 	db 33, FIRE_PUNCH
-	db 38, ICE_PUNCH
-	db 43, THUNDERPUNCH
+	db 34, ICE_PUNCH
+	db 35, THUNDERPUNCH
 	db 48, MEGA_PUNCH
 	db 53, COUNTER
 	db 0
@@ -772,8 +775,8 @@ MagmarEvosMoves:
 	db 0
 ; Learnset
 	db 36, LEER
-	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
+	db 37, CONFUSE_RAY
+	db 39, FIRE_PUNCH
 	db 48, SMOKESCREEN
 	db 52, SMOG
 	db 55, FLAMETHROWER
@@ -923,6 +926,8 @@ DragoniteEvosMoves:
 	db 20, AGILITY
 	db 35, SLAM
 	db 45, DRAGON_RAGE
+	db 57, STOMP
+	db 59, SLASH
 	db 60, HYPER_BEAM
 	db 0
 
@@ -1084,6 +1089,7 @@ PikachuEvosMoves:
 	db 16, QUICK_ATTACK
 	db 26, SWIFT
 	db 33, AGILITY
+	db 35, THUNDER_PUNCH
 	db 43, THUNDER
 	db 0
 
@@ -1698,6 +1704,7 @@ HaunterEvosMoves:
 ; Learnset
 	db 29, HYPNOSIS
 	db 38, DREAM_EATER
+	db 42, BITE
 	db 0
 
 AbraEvosMoves:
@@ -2016,6 +2023,7 @@ CharmeleonEvosMoves:
 	db 9, EMBER
 	db 15, LEER
 	db 24, RAGE
+	db 27, FIRE_PUNCH
 	db 33, SLASH
 	db 42, FLAMETHROWER
 	db 56, FIRE_SPIN
