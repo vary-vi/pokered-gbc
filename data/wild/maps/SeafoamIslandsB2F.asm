@@ -7,9 +7,9 @@ IF DEF(_RED)
 	db 32, SLOWPOKE
 	db 28, HORSEA
 	db 30, STARYU
-	db 30, HORSEA
+	db 30, KRABBY
 	db 28, SHELLDER
-	db 30, GOLBAT
+	db 39, JYNX
 	db 37, SLOWBRO
 ENDC
 IF DEF(_BLUE)
@@ -18,9 +18,9 @@ IF DEF(_BLUE)
 	db 32, PSYDUCK
 	db 28, KRABBY
 	db 30, SHELLDER
-	db 30, KRABBY
+	db 30, HORSEA
 	db 28, STARYU
-	db 30, GOLBAT
+	db 39, JYNX
 	db 37, GOLDUCK
 ENDC
 	end_grass_wildmons
