@@ -360,7 +360,7 @@ GengarEvosMoves:
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 37, DREAM_EATER
 	db 42, BITE
 	db 0
 
@@ -1703,7 +1703,7 @@ HaunterEvosMoves:
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 37, DREAM_EATER
 	db 42, BITE
 	db 0
 
